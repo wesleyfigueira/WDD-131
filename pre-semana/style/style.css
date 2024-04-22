@@ -11,11 +11,40 @@ header{
 nav{
     padding: 20px;
     background-color: gray;
+    
+
 }
 nav a{
-    padding: 30px;
+    padding: 120px;
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bolder;
+ 
+
 
 }
 main{
     display: flex;
+}
+.main{
+    background-color: bisque;
+    width: 60%;
+    height: 500px;
+    text-align: center;
+    align-items: center;
+}
+aside{
+    background-color: aquamarine;
+    width: 40%;
+    height: auto;
+    text-align: center;
+    align-items: center;
+}
+footer{
+    background-color: black;
+    padding: 40px;
+    color: aliceblue;
+    text-align: center;
+    align-items: center;
 }
