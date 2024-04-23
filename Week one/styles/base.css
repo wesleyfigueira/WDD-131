@@ -1,4 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Platypi:ital,wght@0,300..800;1,300..800&display=swap');
+
 *{
     padding: 0;
     margin: 0;
 }
+
+/*-------------------------Header Begin------------------------------*/
+/*--h1--*/
+header h1{
+    text-align: center;
+    padding: 20px;
+    font-family: "platypi";
+    background-color: gray;
+}
+
+/*--Nav Bar--*/
+nav{
+    background-color: rgb(26, 26, 75);
+    margin: 0;
+    
+}
+nav ul{
+    list-style-type: none;
+}
+nav a {
+    display: block;
+    color: white ;
+    text-align: center;
+    padding: 1rem;
+    text-decoration: none;
+    font-size: 23px
+}
+nav a:hover{
+    color: yellow;
+    font-weight: bolder;
+}
+
+@media(min-width:640px){
+    nav ul{
+        display: flex;
+    }
+    nav ul li {
+        flex: 1 1 100%;
+    }
+}
+
+/*------------------------Header End---------------------------------*/
+
+
+
+
+
+
+/*-------------------------Main start------------------------------*/
+main{
+    display: flex;
+    padding: 20px;
+    
+}
+.secundTitle{ 
+    font-family: "platypi";
+    padding: 10px;
+}
+.aboutMe{
+    padding: 20px;
+    background-color: white;
+}
+section{
+    width: 60%;
+    border-radius: 20px;
+    margin-right: 20px;
+    border: solid 1px gray;
+    background-color: gray;
+}
+.WebResources{
+    
+    width: 40%;
+    border-radius: 20px;
+    border: solid 1px gray;
+    background-color: gray;
+}
+.links{
+    background-color: white; 
+}
+aside li{
+    font-size: 20px;
+    padding: 26px;
+    text-decoration: none;
+    list-style-type: none;
+    
+}
+
+/*-------------------------Main End  ------------------------------*/
+
+/*-------------------------------------------------------*/
+
+/*-------------------------------------------------------*/
