@@ -3,6 +3,8 @@
 *{
     padding: 0;
     margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
 }
 
 /*-------------------------Header Begin------------------------------*/
@@ -44,6 +46,12 @@ nav a:hover{
         flex: 1 1 100%;
     }
 }
+span{
+    font-size: 30px ;
+    color: yellow;
+    font-family: "platypi";
+    
+}
 
 /*------------------------Header End---------------------------------*/
 
@@ -61,38 +69,75 @@ main{
 .secundTitle{ 
     font-family: "platypi";
     padding: 10px;
+    background-color: gray;
+    border-radius: 15px 15px 0 0;
 }
 .aboutMe{
     padding: 20px;
-    background-color: white;
+    
+   
 }
 section{
     width: 60%;
     border-radius: 20px;
     margin-right: 20px;
     border: solid 1px gray;
-    background-color: gray;
+    background-color: white;
 }
 .WebResources{
-    
     width: 40%;
     border-radius: 20px;
     border: solid 1px gray;
-    background-color: gray;
-}
-.links{
-    background-color: white; 
+    
 }
 aside li{
     font-size: 20px;
-    padding: 26px;
+    padding: 15px;
     text-decoration: none;
     list-style-type: none;
     
+    
 }
+
+/*---About me Inside---*/
+.imgAndMe{
+    display: flex;
+    padding: 10px;
+    
+}
+.myself{
+    
+    border: 1px solid gray;
+    margin: 10px;
+}
+.country{
+    display: flex;
+    padding: 10px;
+}
+/*---About me Inside end---*/
+
+/*---Aside Web and Dev---*/
+aside a {
+    text-decoration: none;
+    color: black;
+}
+aside a:hover{
+    color: yellow;
+    font-weight: bolder;
+}
+/*---Aside Web and Dev end---*/
 
 /*-------------------------Main End  ------------------------------*/
 
-/*-------------------------------------------------------*/
+/*-----------------------Footer begin--------------------------------*/
+footer{
+    background-color: rgb(26, 26, 75);
+    padding: 40px;
+    color: white;
+}
+footer p{
+    margin-bottom: 10px;
+    text-align: center;
+}
 
-/*-------------------------------------------------------*/
+/*------------------------Footer End-------------------------------*/
