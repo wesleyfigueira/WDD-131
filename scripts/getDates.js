@@ -1,5 +1,5 @@
 
-// getdates.js
+
 
 // Get the current year for copyright
 const currentYear = new Date().getFullYear();
